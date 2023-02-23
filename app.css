@@ -1,0 +1,42 @@
+/* Retro label styling */
+body {
+    width: 250px
+}
+
+.output-label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #6b6b6b;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration-line: underline;  
+}
+
+.buttons-container {
+    display:flex;
+    justify-content: center;
+}
+
+  /* Retro button styling */
+.button {
+    display: inline-block;
+    margin: 2px;
+    background-color: #f2f2f2;
+    color: #6b6b6b;
+    border: 1px solid #6b6b6b;
+    font-size: 16px;
+    padding: 8px 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Courier New', Courier, monospace;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: #6b6b6b;
+    color: #f2f2f2;
+}
